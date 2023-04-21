@@ -1,0 +1,111 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image: url(../images/sky.jpg);
+    background-size:cover;
+}
+.header1{
+    position:fixed;
+    width:100%;
+    height:12em;
+    background-color: black;
+    top: 0%;
+}
+.header1 img{
+    float: right;
+    width: 10em;
+    height: 10em;
+    margin-right: 12em;
+    margin-top: 1em;
+    border-radius: 50%;
+}
+.header1 h2{
+    color:white;
+    margin-left: 10em;
+    padding-top: 2em;
+}
+.header1 p{
+    color:white;
+    margin-left:10em;
+}
+.contacts{
+    display:inline;
+    margin-left: 5px;
+    color: white;
+}
+a[href^='mailto']::before {
+    content: '📧 ';
+}
+a[href^='tel']::before {
+    content: '📞 ';
+}
+.contacts a{
+    color: white;
+}
+.contacts a:hover{
+    color:grey;
+}
+.main_container{
+    margin:auto;
+    margin-top: 15em;
+    width:55%;
+    border: 2px solid black;
+    background-color: white;
+    font-family:cursive;
+    background-color: aliceblue;
+}
+.inside_container{
+    margin:5px;
+    margin-bottom: 7px;
+    padding: 10px;
+    overflow:auto;
+    display: ;
+}
+.inside_container h3{
+    font-size: x-large;
+}
+
+.inside_container hr{
+    border: 1px solid black;
+}
+
+.skills_list li{
+    float:left;
+    margin-right:15px; 
+    padding-right: 15px;
+    margin-left: 15px;
+}
+.education li{
+    margin-left: 15px;
+    font-weight: 600;
+}
+.degree li{
+    margin-left: 25px;
+    font-weight: 300;
+    list-style: none;  
+    font-style: italic;
+    font-size:medium;
+}
+.education p{
+    margin-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+}
+.points li{
+    margin-left: 27px;
+    font-weight: 300;
+    list-style:inside;  
+    font-style: italic;
+    font-size:medium;
+}
+footer{
+    height:3em;
+    background-color: black;
+    margin-top: 45px;
+}
+#copyright{
+     color:white;
+     padding-top: 10px;
+}
